@@ -22,19 +22,9 @@ img{
 /*================================ 
 Header Area Style
 ==================================*/
-#notice{
-  background: orange;
-  color: #333;
-  padding: 10px 0;
-  text-align: center;
-}
-#notice h2{
-  margin: 0;
-  text-transform: capitalize;
-  color: #fff;
-}
+
 #header_area {
-    padding: 0px 0 15px;
+    padding: 15px 0;
   }
   
   #header_area .col-md-9 ul {
@@ -158,7 +148,61 @@ Header Area Style
   #header_area.center_menu .col-md-9 ul ul{
     text-align: left;
    } 
- 
+   /* =============================================
+  Index Page Style
+  ================================================ */
+
+  #body_area{
+      padding: 45px 0;
+  }
+  
+  #body_area .blog-area{
+      width: 100%;
+      margin-bottom: 15px;
+  }
+
+  #body_area .post_thumb{
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#body_area .post_thumb img{
+  transition: .5s;
+  width: 100%;
+  display: block;
+}
+
+#body_area .post_thumb:hover img{
+  transform: scale(1.1);
+}
+
+#body_area .post_details{
+  width: 100%;
+}
+#body_area .post_details h2{
+  font-weight: 700;
+  font-size: 30px;
+}
+
+#body_area .post_details h2 a{
+  color: #262626;
+  text-decoration: none;
+  transition: .5s;
+}
+#body_area .post_details h2 a:hover{
+  color: #ea1a70;
+}
+
+
+
+
+
+    
+
+
+
+
 
   /* =============================================
   Copyright Area
