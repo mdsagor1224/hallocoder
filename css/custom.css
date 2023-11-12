@@ -22,8 +22,19 @@ img{
 /*================================ 
 Header Area Style
 ==================================*/
+#notice{
+  background: orange;
+  color: #333;
+  padding: 10px 0;
+  text-align: center;
+}
+#notice h2{
+  margin: 0;
+  text-transform: capitalize;
+  color: #fff;
+}
 #header_area {
-    padding: 15px 0;
+    padding: 0px 0 15px;
   }
   
   #header_area .col-md-9 ul {
