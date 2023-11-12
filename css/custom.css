@@ -18,7 +18,19 @@ h6{
 img{
     max-width: 100%;
 }
-
+.readmore{
+  background: #ea1a70;
+  color: #fff;
+  font-size: 15px;
+  text-decoration: navajowhite;
+  display: inline-block;
+  padding: 10px 25px;
+  border-radius: 10px;
+  transition: .5s;
+}
+.readmore:hover{
+  background: #262626;
+}
 /*================================ 
 Header Area Style
 ==================================*/
