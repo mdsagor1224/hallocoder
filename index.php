@@ -32,7 +32,12 @@
                         _e('No post found');
                     endif;
                     ?>
-
+                    <div id="page_nav">
+                        <?php if ('hallo_pagenav'){hallo_pagenav();} else{?>
+                            <?php next_posts_link('');?>
+                            <?php previous_posts_link('');?>
+                        <?php } ?>
+                    </div>
                    
                 </div>
 
