@@ -207,6 +207,12 @@ Header Area Style
 #body_area .post_details h2 a:hover{
   color: #ea1a70;
 }
+
+.blog_area {
+  background: #ddd;
+  padding: 15px;
+  margin: 15px;
+}
   /* =============================================
   pagination
   ================================================ */
