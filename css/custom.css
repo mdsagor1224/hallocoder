@@ -209,10 +209,81 @@ Header Area Style
 }
 
 .blog_area {
-  background: #ddd;
+  background: #fff;
   padding: 15px;
-  margin: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 0 10px #ddd;
 }
+  /* =============================================
+  Sidebar area stlying 
+  ================================================ */
+
+  #body_area .child_sidebar{
+    margin-bottom: 20px;
+  }
+  .child_sidebar h2{
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 0;
+    line-height: 1em;
+    border-left: 5px solid #ea1a70;
+    padding-left: 10px;
+  }
+
+  #body_area .child_sidebar input[type="search"]{
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  #body_area .child_sidebar button[type="submit"]{
+    background: #ea1a70;
+    border: 1px solid #ea1a70;
+    padding: 10px;
+    margin: 0;
+    color: #fff;
+    transition: .5s;
+  }
+  #body_area .child_sidebar button[type="submit"]:hover{
+    background: #262626;
+    border: 1px solid #262626;
+  }
+
+  #body_area .child_sidebar ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+  }
+  #body_area .child_sidebar ul li{
+  display: block;
+  margin-bottom: 5px;
+  }
+
+  #body_area .child_sidebar ul li a{
+    display: inline-block;
+    color: #262626;
+    text-decoration: none;
+   }
+   #body_area .child_sidebar ul li a:hover{
+    color: #ea1a70;
+   }
+   #body_area .child_sidebar a.tag-cloud-link{
+    color: #fff;
+    background: #262626;
+    display: inline-block;
+    font-size: 12px !important;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 5px;
+   }
+   #body_area .child_sidebar a.tag-cloud-link:hover{
+    background: #ea1a70;
+    transition: .5s;
+   }
+  
+
+
   /* =============================================
   pagination
   ================================================ */
@@ -243,7 +314,15 @@ Header Area Style
 background:#262626;
 }   
 
-
+  /* =============================================
+  Footer Area Stlying 
+  ================================================ */
+  #footer{
+    background: #292929;
+    padding: 40px 0 20px;
+    color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
 
 
 
