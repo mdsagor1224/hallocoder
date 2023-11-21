@@ -194,6 +194,11 @@ Header Area Style
 #body_area .post_details{
   width: 100%;
 }
+
+#body_area .post_details div{
+  width: 100% !important;
+}  
+
 #body_area .post_details h2{
   font-weight: 700;
   font-size: 30px;
@@ -288,7 +293,7 @@ Header Area Style
   pagination
   ================================================ */
 
-#page_nav{}
+
 #page_nav p.pages{
   background: #ea1a70;
   color: #fff;
@@ -349,4 +354,14 @@ background:#262626;
   }
   #copyright_area p a:hover{
    text-decoration: underline;
+  }
+
+/* =============================================
+ Comments Area Stlying 
+  ================================================ */
+
+  #comments_area h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
   }
