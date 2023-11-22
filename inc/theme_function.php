@@ -58,6 +58,45 @@ function hallo_customizar_register($wp_customize){
         'section' => 'hallo_footer_option',
 
     ));
+
+
+    // Theme Color
+    $wp_customize->add_section('hallo_colors', array(
+        'title' => __('Theme Color','hallocoder'),
+        'description' => 'If need you can change your theme color',
+    ));
+
+    $wp_customize->add_setting('hallo_bg_color',array(
+        'default' => '#fff',
+    ));
+
+    $wp_customize->add_control(new WP_Customize_color_control($wp_customize, 'hallo_bg_color', array(
+        'label' => 'Background Color',
+        'section' => 'hallo_colors',
+        'settings' => 'hallo_bg_color',
+    )));   
+    
+    $wp_customize->add_setting('hallo_primary_color',array(
+        'default' => '#ea1a70',
+    ));
+
+    $wp_customize->add_control(new WP_Customize_color_control($wp_customize, 'hallo_primary_color', array(
+        'label' => 'Primary Color',
+        'section' => 'hallo_colors',
+        'settings' => 'hallo_primary_color',
+    )));
 }
 
 add_action('customize_register','hallo_customizar_register');
+
+function hallo_theme_color_cus(){
+    ?>
+        <style>
+        body{background:<?php echo get_theme_mod('hallo_bg_color');?> }
+
+        :root{ --pink:<?php echo get_theme_mod('hallo_primary_color');?>}
+        </style>
+    <?php
+}
+
+add_action('wp_head','hallo_theme_color_cus');
