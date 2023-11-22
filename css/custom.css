@@ -241,7 +241,62 @@ Header Area Style
 }
 
 
+  /* =============================================
+ 404 Page stlying 
+  ================================================ */
+.error_page{
+  padding: 50px 0;
+  text-align: center;
+}
 
+.error_page h1{
+  color: #262626;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.error_page p{
+  color: #ea1a70;
+  margin-bottom: 0;
+}
+.error_page a.homepage{
+  background: #ea1a70;
+  margin-bottom: 0;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 10px 25px;
+  display: inline-block;
+  margin-top: 20px;
+  transition: .5s;
+}
+.error_page a.homepage:hover{
+  background: #262626;
+
+}
+.error_search{
+  margin-bottom: 15px;
+}
+.error_search input[type="text"]{
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.error_search input[type="submit"]{
+  background: #ea1a70;
+  border: 1px solid #ea1a70;
+  padding: 10px;
+  margin: 0;
+  color: #fff;
+  transition: .5s;
+}
+
+.error_search input[type="submit"]:hover{
+  background: #262626;
+  border: 1px solid #262626;
+}
 
 
   /* =============================================
