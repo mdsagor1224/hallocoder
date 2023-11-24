@@ -476,3 +476,8 @@ Service Area
   padding: 15px;
   border-radius: 15px;
 }
+
+.child_sidebar .col-md-4{
+  width: 100%;
+  margin-bottom: 20px;
+}
