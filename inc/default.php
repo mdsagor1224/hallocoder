@@ -5,8 +5,10 @@ add_theme_support('title-tag');
 
 // Post Thumbnail
 
-add_theme_support('post-thumbnails', array('page','post','service'));
-//add_image_size('service', 600, 200, true);
+add_theme_support('post-thumbnails', array('page','post','service','slider'));
+add_image_size('slider', 1920, 600, true);
+add_image_size('service', 600, 200, true);
+
 add_image_size('post-thumbnails', 970, 350, true);
 
 
