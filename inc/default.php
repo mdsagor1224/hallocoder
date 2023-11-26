@@ -43,6 +43,4 @@ function hallo_pagenav(){
             $max . '</p>';
             echo $pages . paginate_links($args);
             if($max > 1) echo '</div><pre>';
-        
-    
-}
+  }

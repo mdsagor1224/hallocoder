@@ -30,6 +30,28 @@ get_header(); ?>
 </section>
 
 
+<!-- owl carousel slider -->
+<section id="slider_area">
+    <div id="owl-slider" class="owl-carousel owl-theme">
+    
+        <?php 
+            query_posts('post_type=slider&posts_per_page=3');
+                if (have_posts()) : 
+                while(have_posts()) : the_post();
+        ?>
+            <div>
+                <?php echo the_post_thumbnail('slider');?>
+            </div>
+
+
+            <?php 
+                endwhile;
+             endif;
+            ?>
+    </div>
+</section>
+
+
 <section id="service_area">
     <div class="container">
         <div class="row">
