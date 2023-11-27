@@ -52,6 +52,16 @@ get_header(); ?>
 </section>
 
 
+<div id="homepage_post">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                 <?php dynamic_sidebar('home-1');?>
+            </div>
+        </div>
+    </div>
+</div>
+
 <section id="service_area">
     <div class="container">
         <div class="row">

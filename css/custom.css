@@ -239,6 +239,34 @@ Header Area Style
   margin-bottom: 15px;
   box-shadow: 0 0 10px #ddd;
 }
+
+/*================================ 
+HomePage Category Style
+==================================*/
+#homepage_post .child_home ul{
+  text-align: center;
+}
+#homepage_post .child_home ul li{
+  display: inline-block;
+  background: #fff;
+  padding: 10px;
+  box-shadow: 0 0 10px #ddd;
+  margin: 0 10px;
+  border-radius: 10px;
+  width: 30%;
+}
+
+#homepage_post .child_home ul li a{
+  font-size: 25px;
+  color: #262626;
+  display: block;
+  margin: 15px 0;
+  text-decoration: none;
+}
+#homepage_post img {
+  height: 200px;
+}
+
   /* =============================================
   Archive stlying 
   ================================================ */
