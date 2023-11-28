@@ -25,7 +25,7 @@ function custom_slider(){
             'rewrite' => array('slug' => 'slider'),
             'supports' => array('title','thumbnail','editor','excerpt'),
         )
-        );
+    );
 }
 
 

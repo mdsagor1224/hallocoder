@@ -10,6 +10,8 @@
     
     <div class="post_details">
         <h2><a href="<?php the_permalink();?>"><?php the_title();?></a></h2>
+        <p><i class="fa fa-calendar-alt"></i><?php echo the_time('D, j - F Y');?>  <span>At</span> <i class="fa fa-clock"></i><?php echo the_time('g:i a');?></p>
+       
         <?php the_excerpt();?>
     </div>
 </div>
